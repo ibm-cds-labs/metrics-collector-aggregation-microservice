@@ -43,5 +43,5 @@ var appEnv = cfenv.getAppEnv();
 console.log("App starting on",appEnv.url);
 app.listen(appEnv.port);
 
-//require("cf-deployment-tracker-client").track();
+require("cf-deployment-tracker-client").track();
 

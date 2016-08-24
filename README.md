@@ -1,4 +1,4 @@
-# Metrics Collector Aggregation Microservice
+# Simple Logging Service - Aggregation Microservice
 
 This is a microservice that subscribes to a queue or pubsub channel hosted on 
 
@@ -14,7 +14,7 @@ and aggregates the data using one of the built-in functions:
 * countdistinct - count numbers of distinct values of a single element of the message
 * customstats - calculate stats on a value returned by a supplied function
 
-This service is designed to be paired with the [Metrics Collector Microservice](https://github.com/ibm-cds-labs/metrics-collector-microservice) which sends web traffic data to a Redis, RabbitMQ or Kafka queue or pubsub channel. Other Microservices can listen to the data arriving on those channels, services such as the [Metrics Collector Storage Microservice](https://github.com/ibm-cds-labs/metrics-collector-storage-microservice) which can store data in Cloudant, MongoDB or ElasticSearch. 
+This service is designed to be paired with the [Simple Logging Service](https://github.com/ibm-cds-labs/simple-logging-service) which sends web traffic data to a Redis, RabbitMQ or Kafka queue or pubsub channel. Other Microservices can listen to the data arriving on those channels, services such as the [Simple Logging Storage Microservice](https://github.com/ibm-cds-labs/simple-logging-storage) which can store data in Cloudant, MongoDB or ElasticSearch. 
 
 The story is told in our blog [here](https://developer.ibm.com/clouddataservices/2016/03/03/simple-metrics-collector-microservices-edition/) with a step-by-step guide to deploying on Bluemix with Compose services [here](https://www.compose.io/articles/deploying-the-metrics-collector-microservice-on-compose/).
  

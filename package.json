@@ -1,10 +1,10 @@
 {
-  "name": "cds-labs-metrics-collector-aggregation-microservice",
+  "name": "simple-logging-aggregation",
   "version": "1.0.0",
   "description": "Consumer microservice counts, averages and sums data",
   "main": "app.js",
   "scripts": {},
-  "repository": "https://github.com/ibm-cds-labs/metrics-collector-aggregation-microservice",
+  "repository": "https://github.com/ibm-cds-labs/simple-logging-aggregation",
   "keywords": [
     "tracking",
     "microservice",
